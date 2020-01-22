@@ -9,6 +9,7 @@ import {
     SharedService,
     UsuarioService,
     LoginGuardGuard,
+    AdminGuard,
     SubirArchivoService,
     HospitalService,
     MedicoService
@@ -30,7 +31,8 @@ import {
         SubirArchivoService,
         ModalUploadService,
         HospitalService,
-        MedicoService
+        MedicoService,
+        AdminGuard
     ],
     declarations: []
 })
